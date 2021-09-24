@@ -11,9 +11,8 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{0,1,3,4,5,6,7,8,9,10,11};
         IntStream intStream = Arrays.stream(arr);
-
         //avarage
-        System.out.println(intStream.average());
+//        System.out.println(intStream.average());
 
 //        IntStream intStream1 = Arrays.stream(arr);
 //        int min = IntStream.range(0, arr.length).boxed()
