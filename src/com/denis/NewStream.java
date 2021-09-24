@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class NewStream {
-    private int[] arr;
+
     List<Integer> list;
     IntStream intStream;
 
@@ -43,9 +43,9 @@ public class NewStream {
         return res;
     }
 
-    public String multiply(int[] arr) {
+    public String multiply(int[] arr, int number) {
         list = Arrays.stream(arr).boxed().collect(Collectors.toList());
-        String res = Arrays.toString(list.stream().map(x->x*2).toArray());
+        String res = Arrays.toString(list.stream().map(x->x*number).toArray());
         return res;
     }
 

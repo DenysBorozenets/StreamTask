@@ -27,6 +27,8 @@ public class Main {
                 .min(Comparator.comparingInt(list::get))
                 .get();
         System.out.println(min);
+
+
         //min value
 //        Integer min = list.stream().mapToInt(x -> x).min().orElseThrow(NoSuchElementException::new);
 //        System.out.println(min);
